@@ -2341,9 +2341,11 @@ a.link-blog:hover{
 	input[type="reset"],
 	input[type="button"] {
 	background:rgba(0,0,0,.1);	
+	color: #EC572C;
 	margin-top:10px;
 	border:none;
-	  color: #fff;
+	text-transform: uppercase;
+	 
 	  display: inline-block;
 		font-family: 'OpenSans-Light-webfont';
 	  font-size: 16px;
