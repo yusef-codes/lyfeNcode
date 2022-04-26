@@ -107,22 +107,45 @@
     flex: 0 0 100%;
 	background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
-    background-size: 300px 700px;
     background-size: cover;
     background-position-y: -200px;
     /* counter-increment: item; */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: black;
+    opacity: .4;
   }
   
   .carousel__slide:nth-child(1) {
 	background-image: url(../images/background1.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: black;
+    opacity: .4;
   }
 
   .carousel__slide:nth-child(2) {
 	background-image: url(../images/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: black;
+    opacity: .4;
   }
 
   .carousel__slide:nth-child(3) {
 	background-image: url(../images/background3.jpg);
+
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: black;
+    opacity: .4;
   }
   
   .carousel__slide:before {
@@ -261,6 +284,9 @@
     -webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
+}
+#mine-haha a {
+    color: #EC572C;
 }
 
 #mine-haha  a span:last-child {
