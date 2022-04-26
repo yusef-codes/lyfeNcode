@@ -22,6 +22,8 @@
 	<link rel="stylesheet" href="css/layout.css"/>
 	<link rel="stylesheet" href="css/colorbox.css"/>
 	<link rel="stylesheet" href="css/image-rotation-thingy.css"/>
+	<link rel="stylesheet" href="css/carousel.css"/>
+
 
 	
     <!--[if lte IE 8]>
@@ -582,9 +584,71 @@
 			</div>
 		</div>
 		<div class="background-pat-last">
+			<div class="section-wrapper-1">
+			<section class="carousel" aria-label="Gallery">
+				<ol class="carousel__viewport">
+				  <li id="carousel__slide1"
+					  tabindex="0"
+					  class="carousel__slide">
+					<div class="carousel__snapper">
+					  <a href="#carousel__slide4"
+						 class="carousel__prev">Go to last slide</a>
+					  <a href="#carousel__slide2"
+						 class="carousel__next">Go to next slide</a>
+					</div>
+				  </li>
+				  <li id="carousel__slide2"
+					  tabindex="0"
+					  class="carousel__slide">
+					<div class="carousel__snapper"></div>
+					<a href="#carousel__slide1"
+					   class="carousel__prev">Go to previous slide</a>
+					<a href="#carousel__slide3"
+					   class="carousel__next">Go to next slide</a>
+				  </li>
+				  <li id="carousel__slide3"
+					  tabindex="0"
+					  class="carousel__slide">
+					<div class="carousel__snapper"></div>
+					<a href="#carousel__slide2"
+					   class="carousel__prev">Go to previous slide</a>
+					<a href="#carousel__slide4"
+					   class="carousel__next">Go to next slide</a>
+				  </li>
+				  <li id="carousel__slide4"
+					  tabindex="0"
+					  class="carousel__slide">
+					<div class="carousel__snapper"></div>
+					<a href="#carousel__slide3"
+					   class="carousel__prev">Go to previous slide</a>
+					<a href="#carousel__slide1"
+					   class="carousel__next">Go to first slide</a>
+				  </li>
+				</ol>
+				<aside class="carousel__navigation">
+				  <ol class="carousel__navigation-list">
+					<li class="carousel__navigation-item">
+					  <a href="#carousel__slide1"
+						 class="carousel__navigation-button">Go to slide 1</a>
+					</li>
+					<li class="carousel__navigation-item">
+					  <a href="#carousel__slide2"
+						 class="carousel__navigation-button">Go to slide 2</a>
+					</li>
+					<li class="carousel__navigation-item">
+					  <a href="#carousel__slide3"
+						 class="carousel__navigation-button">Go to slide 3</a>
+					</li>
+					<li class="carousel__navigation-item">
+					  <a href="#carousel__slide4"
+						 class="carousel__navigation-button">Go to slide 4</a>
+					</li>
+				  </ol>
+				</aside>
+			  </section>
+		</div>
 
-
-	<div class="containerss">
+	<!-- <div class="containerss">
 		<input type="radio" name="slider" id="item-1" checked>
 		<input type="radio" name="slider" id="item-2">
 		<input type="radio" name="slider" id="item-3">
@@ -599,7 +663,7 @@
 		  <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
 		</label>
 	  </div>
-	</div>
+	</div> -->
 
 			<!-- Image rotation thingy start -->
 	
