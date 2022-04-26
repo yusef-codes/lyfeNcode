@@ -97,7 +97,7 @@
     left: 0;
     display: flex;
     overflow-x: scroll;
-    counter-reset: item;
+    /* counter-reset: item; */
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
   }
@@ -107,7 +107,7 @@
     flex: 0 0 100%;
     width: 100%;
     background-color: #f99;
-    counter-increment: item;
+    /* counter-increment: item; */
   }
   
   .carousel__slide:nth-child(even) {
@@ -115,7 +115,7 @@
   }
   
   .carousel__slide:before {
-    content: counter(item);
+    /* content: counter(item); */
     position: absolute;
     top: 50%;
     left: 50%;
