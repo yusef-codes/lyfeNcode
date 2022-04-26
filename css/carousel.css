@@ -105,13 +105,24 @@
   .carousel__slide {
     position: relative;
     flex: 0 0 100%;
-    width: 100%;
-    background-color: #f99;
+	background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 700px;
+    background-size: cover;
+    background-position-y: -200px;
     /* counter-increment: item; */
   }
   
-  .carousel__slide:nth-child(even) {
-    background-color: #99f;
+  .carousel__slide:nth-child(1) {
+	background-image: url(../images/background1.jpg);
+  }
+
+  .carousel__slide:nth-child(2) {
+	background-image: url(../images/background2.jpg);
+  }
+
+  .carousel__slide:nth-child(3) {
+	background-image: url(../images/background3.jpg);
   }
   
   .carousel__slide:before {
