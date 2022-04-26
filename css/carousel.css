@@ -83,8 +83,9 @@
   
   .carousel {
     position: relative;
-    padding-top: 35%;
+    /* padding-top: 35%; */
     filter: drop-shadow(0 0 10px #0003);
+    height: 300px;
     perspective: 100px;
   }
   
@@ -194,6 +195,8 @@
     border-radius: 50%;
     font-size: 0;
     outline: 0;
+    /* Hide the arrow buttons for now, might bring it back */
+    display: none;
   }
   
   .carousel::before,
