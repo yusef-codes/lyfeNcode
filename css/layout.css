@@ -797,7 +797,8 @@
 	
 @media only screen and (max-width: 959px) {
 	#navigation a, #navigation a:active, #navigation a:visited {
-		color:#4f4f4f;
+		/* color:#4f4f4f; before me */ 
+		color: white;
 	}
 	
 	#navigation ul {
@@ -808,6 +809,7 @@
 		right: 50px;
 		border: solid 1px #efefef;
 		background: #fff url(../images/icon-menu.png) no-repeat 10px 11px;
+		background-color:#EC572C;
 		border-radius: 3px;	
 	}
 	.logo {
@@ -869,6 +871,8 @@
 		right: 20px;
 		border: solid 1px #efefef;
 		background: #fff url(../images/icon-menu.png) no-repeat 10px 11px;
+		background-color:#EC572C;
+		
 		border-radius: 3px;		
 	}
 	
@@ -916,19 +920,22 @@
 	}
 	
 	#navigation ul {
-		width: 120px;
-		padding: 5px 0;
+		width: 150px;
+		padding: 15px 0;
 		position: relative;
 		top: 10px;
 		right: 10px;
 		border: solid 1px #efefef;
-		background: #fff url(../images/icon-menu.png) no-repeat 10px 11px;
 		border-radius: 3px;
+		background-color: #EC572C;
+		color: white;
+
 	}
 	
 	ul#menu li {
 		display: none;
 		margin: 0;
+
 	}
 	
 	#navigation .current {
