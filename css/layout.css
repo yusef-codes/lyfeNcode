@@ -132,6 +132,9 @@
 @media only screen and (max-width: 959px) {
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 }
+.cbp-so-side {
+	margin-bottom: 40px; 
+}
 .parallax{
 	width:100%;
 	padding:0;
@@ -864,6 +867,10 @@
 		width: 140px;
 		height:50px;
 	}
+
+	.tech-container {
+		display: flex;
+	}
 	
 	#navigation ul {
 		width: 200px;
@@ -915,7 +922,12 @@
 }	
 @media only screen and (max-width: 479px) {
 
-	
+	.cbp-so-side {
+		margin-bottom: 60px;
+	}
+	.tech-container {
+		display: flex;
+	}
 	.logo {
 		margin-left:-10px;
 		margin-top:15px;
@@ -2643,6 +2655,7 @@ a.link-blog:hover{
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {	
+	
 	h1 { font-size: 25px; line-height:27px;}
 #profile .title .angle  h1,
 #team .title .angle  h1,

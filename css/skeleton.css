@@ -151,7 +151,10 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column  { width: 420px; }
+        .container .two-thirds.column  { 
+            width: 420px;
+            display: flex;
+        }
 
         /* Offsets */
         .container .offset-by-one,
@@ -231,7 +234,11 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column { width: 300px; }
+        .container .two-thirds.column { 
+            width: 300px;
+            display: flex;
+            margin: 10px;
+        }
     }
 
 
