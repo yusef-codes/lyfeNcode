@@ -868,6 +868,10 @@
 		height:50px;
 	}
 
+	.home-text-middle {
+		font-size: 40px;
+	}
+
 	.tech-container {
 		display: flex;
 	}
@@ -2541,7 +2545,7 @@ a.link-blog:hover{
 			
 #home a {
 	margin: 2px 3px;
-	font-size: 10px;
+	font-size: 20px;
 	letter-spacing: 0;
 }			
 			
@@ -2714,9 +2718,11 @@ a.link-blog:hover{
 	line-height:25px;
 }			
 .home-text-middle{
-	font-size: 60px;
+	font-size: 40px;
 	line-height:60px;
+	
 }			
+
 .home-text-bottom{
 	font-size: 25px;
 	line-height:25px;
@@ -2729,7 +2735,7 @@ a.link-blog:hover{
 }			
 			
 .cl-effect-18 {
-	margin-top:10px;
+	margin-top:-20px;
 }
 #arrow a{
 	height:60px;
@@ -2933,8 +2939,11 @@ a.link-blog:hover{
 	}
 
 
-
-
+@media only screen and (max-width: 600px) {
+	.cl-effect-18  {
+		font-size: 30px;
+	}
+}
 
 
 
