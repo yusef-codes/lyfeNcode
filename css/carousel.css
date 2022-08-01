@@ -293,4 +293,10 @@
 	opacity: 1;
     margin-top: 25px;
 }
+
+@media only screen and (max-width: 500px) {
+	.carousel {
+		height: 500px;
+	}
+}
   
