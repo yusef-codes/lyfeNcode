@@ -107,8 +107,11 @@
     flex: 0 0 100%;
 	background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     /* background-position-y: -200px; */
+    height: 500px;
+    background-position-x: -100px;
+    width: 100vw;
     /* counter-increment: item; */
 
     background-size: cover;
@@ -123,6 +126,8 @@
 
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+    /* background-position-x: -200px; */
 
     /* background-color: black; */
     /* opacity: .4; */
