@@ -124,7 +124,7 @@
   .carousel__slide:nth-child(1) {
 	background-image: url(../images/beylaAcedemy.png);
 
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     /* background-position-x: -200px; */
@@ -135,8 +135,9 @@
 
   .carousel__slide:nth-child(2) {
 	background-image: url(../images/mintech.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    width: 100%;
 
     /* background-color: black;
     opacity: .4; */
